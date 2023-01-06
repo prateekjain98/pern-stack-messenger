@@ -1,0 +1,20 @@
+{
+  "author": "Prateek Jain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:server": "yarn workspace @chat-app/server dev",
+    "dev:client": "yarn workspace @chat-app/client start",
+    "build:client": "yarn workspace @chat-app/client build",
+    "start": "yarn workspace @chat-app/server start"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express-session": "^1.17.3"
+  }
+}
