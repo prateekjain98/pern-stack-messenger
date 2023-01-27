@@ -1,13 +1,12 @@
 import AppRoutes from './components/Routes'
-import { ToggleColorMode } from './components/toggleColorMode'
-
+import Navbar from './components/Navbar'
 function App() {
 
   return (
-    <div>
-      <AppRoutes/>
-      <ToggleColorMode/>
-    </div>
+      <div>
+          <Navbar />
+          <AppRoutes />
+      </div>
   )
 }
 

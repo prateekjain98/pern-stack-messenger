@@ -46,7 +46,7 @@ const Signup = () => {
                 w={{ base: '90%', md: '500px' }}
                 m="auto"
                 justify="center"
-                h="100vh"
+                h="85vh"
                 spacing="1rem"
             >
                 <Heading>Sign Up</Heading>
@@ -66,7 +66,7 @@ const Signup = () => {
                         Create Account
                     </Button>
                     <Button
-                        onClick={() => navigate('/')}
+                        onClick={() => navigate('/login')}
                         leftIcon={<ArrowBackIcon />}
                     >
                         Back

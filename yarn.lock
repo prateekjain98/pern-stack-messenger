@@ -816,7 +816,7 @@
   "resolved" "https://registry.npmjs.org/@chakra-ui/visually-hidden/-/visually-hidden-2.0.13.tgz"
   "version" "2.0.13"
 
-"@chat-app/client@file:C:\\Users\\prate\\Documents\\Dev Projects\\ChatApp\\packages\\client":
+"@chat-app/client@file:C:\\Users\\prate\\Documents\\Dev_Projects\\react-messenger\\packages\\client":
   "resolved" "file:packages/client"
   "version" "0.0.0"
   dependencies:
@@ -831,13 +831,13 @@
     "react-router-dom" "^6.6.1"
     "yup" "^0.32.11"
 
-"@chat-app/common@1.0.0", "@chat-app/common@file:C:\\Users\\prate\\Documents\\Dev Projects\\ChatApp\\packages\\common":
+"@chat-app/common@1.0.0", "@chat-app/common@file:C:\\Users\\prate\\Documents\\Dev_Projects\\react-messenger\\packages\\common":
   "resolved" "file:packages/common"
   "version" "1.0.0"
   dependencies:
     "yup" "^0.32.11"
 
-"@chat-app/server@file:C:\\Users\\prate\\Documents\\Dev Projects\\ChatApp\\packages\\server":
+"@chat-app/server@file:C:\\Users\\prate\\Documents\\Dev_Projects\\react-messenger\\packages\\server":
   "resolved" "file:packages/server"
   "version" "1.0.0"
   dependencies:
@@ -2228,6 +2228,11 @@
     "use-callback-ref" "^1.3.0"
     "use-sidecar" "^1.1.2"
 
+"react-icons@^4.7.1":
+  "integrity" "sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw=="
+  "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.7.1.tgz"
+  "version" "4.7.1"
+
 "react-is@^16.13.1", "react-is@^16.7.0":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
@@ -2276,7 +2281,7 @@
     "invariant" "^2.2.4"
     "tslib" "^2.0.0"
 
-"react@^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>=16.8", "react@>=16.8 || ^17.0.0", "react@>=16.8.0", "react@>=18":
+"react@*", "react@^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>=16.8", "react@>=16.8 || ^17.0.0", "react@>=16.8.0", "react@>=18":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
